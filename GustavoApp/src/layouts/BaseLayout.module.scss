@@ -1,0 +1,28 @@
+@import "../variables.modules";
+
+footer {
+  background: linear-gradient(180deg, $dark 0%, $green3 100%);
+}
+
+.dark {
+  background: $dark;
+  color: $white;
+  transition: all 400ms;
+
+  a, i, li {
+    color: $white;
+    transition: color 400ms;
+  }
+
+  a:visited {
+    color: $white;
+  }
+
+  footer {
+    color: $white;
+  }
+}
+
+.pages {
+  margin: 0 5% !important; 
+}

@@ -1,0 +1,49 @@
+<svg xmlnsdc="http://purl.org/dc/elements/1.1/" xmlnscc="http://creativecommons.org/ns#"
+  xmlnsrdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnssvg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg" xmlnsxlink="http://www.w3.org/1999/xlink" id="svg293508" version="1.1"
+  viewBox="332.71 309.43 358.59 149.08">
+  <metadata id="metadata293514">
+    <rdfrdf>
+      <ccwork rdfabout="">
+        <dcformat>image/svg+xml</dcformat>
+        <dctype rdfresource="http://purl.org/dc/dcmitype/StillImage"></dctype>
+      </ccwork>
+    </rdfrdf>
+  </metadata>
+  <defs id="defs293512"></defs>
+  <g id="logo-group">
+    <image xlinkhref="" id="container" x="272" y="144" width="480" height="480" style="display: none;"
+      transform="translate(0 0)"></image>
+    <g id="logo-center" transform="translate(0 0)">
+      <image xlinkhref="" id="icon_container" style="display: none;" x="0" y="0"></image>
+      <g id="slogan"
+        style="font-style:oblique;font-weight:300;font-size:32px;line-height:1;font-family:'Fira Sans Condensed';font-variant-ligatures:none;text-align:center;text-anchor:middle"
+        transform="translate(0 0)"></g>
+      <g id="title"
+        style="font-style:normal;font-weight:normal;font-size:72px;line-height:1;font-family:'Brandmark Sans 1 Color';font-variant-ligatures:normal;text-align:center;text-anchor:middle"
+        transform="translate(0 0)">
+        <g id="path293517" aria-label="G"
+          transform="translate(0 356.92501799999997) translate(332.7115849999999 -47.49349800000001) scale(3) translate(-453.33295 48.746749)">
+          <path class="c1"
+            d="M98.97184,95.92001h24.0498v16.70557c-0.52734,0.95996-1.19922,1.87207-1.87207,2.73633 c-5.56836,7.05713-14.68848,10.60889-23.56934,9.16846c-8.59277-1.43945-16.03418-7.44043-19.1543-15.55322 c-3.16797-8.2085-1.67969-17.76172,3.88867-24.62598c5.4248-6.7207,14.11328-10.12891,22.6582-8.97705 c7.68066,1.05615,14.35254,5.7124,18.24121,12.38525l-10.27246,5.04053c-2.54492-4.08057-7.24902-6.48096-12.0498-6.24072 c-4.17578,0.19189-8.1123,2.44824-10.41602,5.90479c-2.68848,3.98389-3.02441,9.26465-0.81641,13.53711 c1.96777,3.84033,5.76074,6.57617,10.0332,7.20068c4.41602,0.67188,8.97656-1.0083,11.95215-4.36865v-2.92822H98.97184V95.92001z"
+            transform="translate(376.546993 -123.900071)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2"
+            fill="#69b758" stroke="#69b758"></path>
+        </g>
+        <g id="path293519" aria-label="^W"
+          transform="translate(0 356.92501799999997) translate(493.4324150000001 -45.10925099999999) scale(3) translate(-506.90656 47.952)">
+          <polygon class="c1" points="80.79907,124.0022 67.02124,75.9978 79.64673,75.9978 91.31177,124.0022 "
+            transform="translate(439.88532 -123.9498)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2"
+            fill="#69b758" stroke="#69b758"></polygon>
+          <polygon class="c1"
+            points="108.40063,124.0022 100.00024,91.02271 96.49634,104.8479 87.23169,104.8479 94.86353,75.9978 105.23267,75.9978 117.76196,124.0022 "
+            transform="translate(439.88532 -123.9498)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2"
+            fill="#69b758" stroke="#69b758"></polygon>
+          <polygon class="c3" points="124.77075,104.8479 113.34497,104.8479 120.25806,75.9978 132.97876,75.9978 "
+            transform="translate(439.88532 -123.9498)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2"
+            fill="#44594a" stroke="#44594a"></polygon>
+        </g>
+      </g>
+      <image xlinkhref="" id="icon" style="display: none;" x="0" y="0"></image>
+    </g>
+  </g>
+</svg>

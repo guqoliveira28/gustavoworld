@@ -1,0 +1,115 @@
+@import "../variables.modules";
+
+.garageblock {
+    margin: 15px auto;
+
+    border: 5px solid $lightgray;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 400px;
+
+    &:hover {
+        border: 5px solid $white;
+        transform: translateY(-3px);
+        transition: $transition;
+    }
+
+    img {
+        object-fit: contain;
+        background-color: $white;
+
+        width: 100px;
+        height: 100px;
+
+        border-radius: 50%;
+
+        margin-top: 10px;
+    }
+
+    h1 {
+        margin: 10px 0;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+.backarrow {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+
+    background-color: rgb($lightgray, 30%);
+    border-radius: 30%;
+
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    ;
+
+    &:hover {
+        background-color: rgb($lightgray, 40%);
+    }
+
+    i {
+        vertical-align: baseline;
+        padding: 0;
+    }
+}
+
+.terminal {
+    width: 80%;
+    
+    i {
+        padding-left: 0.5rem;
+
+        &.red {
+            color: $red;
+        }
+
+        &.amber {
+            color: $yellow;
+        }
+
+        &.green {
+            color: $green1;
+        }
+    }
+
+    .terminaltext {
+
+        p,
+        li {
+            margin: 1rem 0;
+            color: $white;
+        }
+
+        a,
+        a:visited {
+            animation: changeColors 3s infinite;
+            font-weight: bold;
+        }
+    }
+
+    @keyframes changeColors {
+        0% {
+            color: #00a47f;
+        }
+
+        33.3% {
+            color: #1d91e3;
+        }
+
+        66.6% {
+            color: #d419fe;
+        }
+
+        100% {
+            color: #00a47f;
+        }
+    }
+}
