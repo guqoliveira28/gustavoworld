@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Style from './Navbar.module.scss';
 import { Link, useLocation } from "react-router-dom";
 import { Box } from "@mui/material";
@@ -27,9 +27,9 @@ const links = [
         active: 'garage'
     },
     {
-        name: 'Garage',
-        to: '/garage',
-        active: 'garage'
+        name: 'My arcade',
+        to: '/arcade',
+        active: 'arcade'
     }
 ]
 
