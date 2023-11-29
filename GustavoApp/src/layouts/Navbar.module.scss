@@ -1,33 +1,36 @@
 @import "../variables.modules";
 
-nav {
-  transition: $transition;
-}
+.navbar {
 
-.active {
-  border-bottom: 5px solid;
-  border-image-slice: 1;
-}
-
-li {
-  transition: $transition;
-
-  &:hover {
-    transform: translateY(-3px);
+  nav {
     transition: $transition;
   }
-}
 
-.link:hover {
-  color: unset;
-}
+  .active {
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+  }
 
-.logo {
-  height: 60px;
-  padding-top: 10px;
-}
+  li {
+    transition: $transition;
 
-.name {
-  padding: 0.5rem 0;
-  text-transform: uppercase;
+    &:hover {
+      transform: translateY(-3px);
+      transition: $transition;
+    }
+  }
+
+  .link:hover {
+    color: unset;
+  }
+
+  .logo {
+    height: 60px;
+    padding-top: 10px;
+  }
+
+  .name {
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+  }
 }

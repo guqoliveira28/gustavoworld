@@ -1,5 +1,5 @@
 import React from 'react';
-import GarageBlock from "../../components/GarageBlock";
+import SelectionBlock from "../../components/SelectionBlock";
 import { Box, Grid } from "@mui/material";
 import { info } from "../../info/Info";
 import Style from './Garage.module.scss'
@@ -10,7 +10,7 @@ export default function Garage() {
             <Grid container className={Style.garage}>
                 {info.garage.map((section, index) => (
                     <Grid item xs={12} md={6} key={index}>
-                        <GarageBlock image={section.image} imageAlt={section.imageAlt} link={section.link} title={section.title} />
+                        <SelectionBlock image={section.image} imageAlt={section.imageAlt} link={section.link} title={section.title} />
                     </Grid>
                 ))}
             </Grid>
