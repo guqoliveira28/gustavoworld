@@ -1,36 +1,41 @@
-import React, { useState } from 'react';
-import SelectionBlock from '../../components/SelectionBlock';
-import Tictactoe from './tictactoe/Tictactoe';
-import BackArrow from '../../components/BackArrow';
+import React, { useState } from "react";
+import SelectionBlock from "../../components/SelectionBlock";
+import Tictactoe from "./tictactoe/Tictactoe";
+import BackArrow from "../../components/BackArrow";
 
 export default function Arcade() {
-    const [ selectedGame, setSelectedGame ] = useState();
+  const [selectedGame, setSelectedGame] = useState();
 
-    const game = {
-        image: undefined,
-        imageAlt: "TicTacToe game",
-        title: "TicTacToe",
-        id: "tictactoe"
-    }
+  const game = {
+    image: undefined,
+    imageAlt: "TicTacToe game",
+    title: "TicTacToe",
+    id: "tictactoe",
+  };
 
-    let arcade;
+  let arcade;
 
-    function handleSelectedGame(game) {
-        setSelectedGame(game);
-    }
+  function handleSelectedGame(game) {
+    setSelectedGame(game);
+  }
 
-    if (!selectedGame) {
-        arcade = (
-            <SelectionBlock image={game.image} imageAlt={game.imageAlt} title={game.title} onClick={() => handleSelectedGame(game.id)} />
-        );
-    } else {
-        arcade = (
-            <>
-                <BackArrow clickEvent={() => setSelectedGame()} />
-                <Tictactoe />
-            </>
-        );
-    }
+  if (!selectedGame) {
+    arcade = (
+      <SelectionBlock
+        image={game.image}
+        imageAlt={game.imageAlt}
+        title={game.title}
+        onClick={() => handleSelectedGame(game.id)}
+      />
+    );
+  } else if (game.id === selectedGame) {
+    arcade = (
+      <>
+        <BackArrow clickEvent={() => setSelectedGame()} />
+        <Tictactoe />
+      </>
+    );
+  }
 
-    return arcade;
+  return arcade;
 }

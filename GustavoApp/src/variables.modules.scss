@@ -2,17 +2,28 @@ $purple: #8D53FF;
 $pink: #CA6BE6;
 $white: #f8f8f8;
 $dark: #1f1f1f;
-$grey: #3b3a44;
+$grey: #434343;
+$grey2: #636363;
 $red: #FF6057;
 $yellow: #FFBD2E;
+$darkyellow: #dda11f;
 $green1: #69b758;
 $green2: #5c9753;
 $green3: #50784e;
 $green4: #44594a;
-$lightgray: #c9c9c9;
+$lightgrey: #c9c9c9;
+$lightgrey2: #eeeeee;
+$beige: #eed9c4;
+$darkBeige: #d9b99b;
+$darkBeige2: #b99e84;
+$brown: #4f3200;
+$brown2: #ab6c00;
 
 $transition: all 250ms ease;
 
 .shadowed {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
 }
+
+$mainFontFamily: "Trebuchet MS", Tahoma, sans-serif;
+$gameFontFamily: "Brush Script MT", cursive;

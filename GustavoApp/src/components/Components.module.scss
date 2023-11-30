@@ -3,7 +3,7 @@
 .selectionblock {
     margin: 15px auto;
 
-    border: 5px solid $lightgray;
+    border: 5px solid $lightgrey;
     border-radius: 20px;
 
     display: flex;
@@ -43,7 +43,7 @@
     height: 3rem;
     cursor: pointer;
 
-    background-color: rgb($lightgray, 30%);
+    background-color: rgb($lightgrey, 30%);
     border-radius: 30%;
 
     font-size: 2rem;
@@ -52,7 +52,7 @@
     ;
 
     &:hover {
-        background-color: rgb($lightgray, 40%);
+        background-color: rgb($lightgrey, 40%);
     }
 
     i {
