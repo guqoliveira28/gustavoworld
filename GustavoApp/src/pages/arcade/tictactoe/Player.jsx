@@ -1,13 +1,22 @@
 import React, { useState } from "react";
 import Styles from "./Tictactoe.module.scss";
 
-export default function Player({ name, playerSymbol, active }) {
+export default function Player({
+  name,
+  playerSymbol,
+  active,
+  nameChange,
+  index,
+}) {
   const [playerName, setPlayerName] = useState(name);
   const [isEditing, setIsEditing] = useState(false);
 
   let playerNameText = <span className={Styles.playerName}>{playerName}</span>;
 
   function handleEditing() {
+    if (isEditing) {
+      nameChange(index, { name: playerName, symbol: playerSymbol });
+    }
     setIsEditing((editing) => !editing);
   }
 

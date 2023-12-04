@@ -6,7 +6,7 @@ const initialGameBoard = [
   [null, null, null],
 ];
 
-export default function GameBoard({ turns, onPlay }) {
+export default function GameBoard({ turns, onPlay, isWin }) {
   let gameBoard = [...initialGameBoard.map((innerArray) => [...innerArray])];
 
   for (const turn of turns) {
@@ -32,7 +32,10 @@ export default function GameBoard({ turns, onPlay }) {
           <ol>
             {row.map((playerSymbol, colIndex) => (
               <li key={colIndex}>
-                <button onClick={() => onPlay(rowIndex, colIndex)}>
+                <button
+                  onClick={() => onPlay(rowIndex, colIndex)}
+                  disabled={playerSymbol !== null || isWin}
+                >
                   {playerSymbol}
                 </button>
               </li>
