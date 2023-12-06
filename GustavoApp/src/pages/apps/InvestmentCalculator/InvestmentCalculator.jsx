@@ -16,9 +16,7 @@ export default function InvestmentCalculator() {
 
   function handleCalculatorChanges(field, value) {
     setCurrentCalulator((prevCalculator) => {
-      let newCalculator = { ...prevCalculator };
-      newCalculator[field] = value;
-      return newCalculator;
+      return { ...prevCalculator, [field]: value };
     });
   }
 
