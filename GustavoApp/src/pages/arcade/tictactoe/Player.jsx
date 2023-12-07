@@ -11,7 +11,9 @@ export default function Player({
   const [playerName, setPlayerName] = useState(name);
   const [isEditing, setIsEditing] = useState(false);
 
-  let playerNameText = <span className={Styles.playerName}>{playerName}</span>;
+  let playerNameText = (
+    <span className={Styles["player-name"]}>{playerName}</span>
+  );
 
   function handleEditing() {
     if (isEditing) {
@@ -33,7 +35,7 @@ export default function Player({
   return (
     <li className={active ? Styles.active : undefined}>
       {playerNameText}
-      <span className={Styles.playerSymbol}>{playerSymbol}</span>
+      <span className={Styles["player-symbol"]}>{playerSymbol}</span>
       <button onClick={handleEditing}>{isEditing ? "Save" : "Edit"}</button>
     </li>
   );

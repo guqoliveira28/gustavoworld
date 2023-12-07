@@ -38,7 +38,7 @@
       border: 2px solid transparent;
       padding: 0.5rem;
 
-      .playerName,
+      .player-name,
       input {
         width: 60%;
         height: 2rem;
@@ -47,7 +47,7 @@
         text-transform: uppercase;
       }
 
-      .playerName {
+      .player-name {
         background-color: $grey2;
       }
 
@@ -72,7 +72,7 @@
         }
       }
 
-      .playerSymbol {
+      .player-symbol {
         font-family: $gameFontFamily;
         width: 15%;
         background-color: rgba($beige, 70%);
@@ -110,7 +110,7 @@
     }
   }
 
-  #gameBoard {
+  #game-board {
     background-color: rgba($lightgrey, 70%);
 
     padding: 0 0 5vh;

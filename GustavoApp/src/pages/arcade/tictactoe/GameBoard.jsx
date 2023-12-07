@@ -26,7 +26,7 @@ export default function GameBoard({ turns, onPlay, isWin }) {
     } */
 
   return (
-    <ol id={Styles.gameBoard}>
+    <ol id={Styles["game-board"]}>
       {gameBoard.map((row, rowIndex) => (
         <li key={rowIndex}>
           <ol>

@@ -29,8 +29,8 @@ export default function InvestmentUI({ calculator, handleChange }) {
   }
 
   return (
-    <div id={Styles.userInput}>
-      <div className={Styles.inputGroup}>
+    <div id={Styles["user-input"]}>
+      <div className={Styles["input-group"]}>
         <div>
           <label>Initial Investment</label>
           <input
@@ -50,7 +50,7 @@ export default function InvestmentUI({ calculator, handleChange }) {
           />
         </div>
       </div>
-      <div className={Styles.inputGroup}>
+      <div className={Styles["input-group"]}>
         <div>
           <label>Expected Return</label>
           <input
